@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Aptitude Frontend
+GenericName=Package Manager
+Comment=Install, remove and upgrade software packages
+Exec=su-to-root -X -c /opt/aptitude_frontend/aptitude_frontend
+Icon=/opt/aptitude_frontend/icons/aptitude.jpeg
+Terminal=false
+Type=Application
+Categories=PackageManager;GTK;System;Settings;
+NotShowIn=KDE;

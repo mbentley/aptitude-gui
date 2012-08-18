@@ -1,0 +1,10 @@
+Package: aptitude-gui
+Version: 1.0-0-0
+Architecture: i386
+Maintainer: Matt Bentley <mbentley@mbentley.net>
+Installed-Size: 7116
+Depends: python, python-central (>= 0.6.11), python-glade2, python-gtk2, python-gconf, dbus-x11, aptitude
+Section: utils
+Priority: optional
+Homepage: http://www.overclockers.com
+Description: GTK frontend for aptitude; created by Stratus_ss
