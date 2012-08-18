@@ -1,0 +1,10 @@
+cd aptitude-gui_i386
+md5deep -lr opt usr > DEBIAN/md5sums
+cd ..
+
+cd aptitude-gui_amd64
+md5deep -lr opt usr > DEBIAN/md5sums
+cd ..
+
+dpkg -b aptitude-gui_i386 aptitude-gui_1.0.0-0_i386.deb
+dpkg -b aptitude-gui_amd64 aptitude-gui_1.0.0-0_amd64.deb
